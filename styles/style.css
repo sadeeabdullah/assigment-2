@@ -75,9 +75,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin-top: 1.2rem;
-}
-.banner-text {
-  background-image: url("../images/Group\ 14.png");
+  gap: 100px;
+  
 }
 
 .banner-text-title-first {
@@ -100,6 +99,11 @@ nav {
   text-transform: lowercase;
   line-height: normal;
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.banner-image img{
+width: 90%;
 }
 
 .btn-header {
